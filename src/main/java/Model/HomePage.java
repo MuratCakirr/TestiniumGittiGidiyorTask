@@ -13,10 +13,10 @@ public class HomePage {
     }
 
     public WebElement BeforeUserLoginBtn() {
-        return driver.findElement(By.xpath("//*[@id=\"main-header\"]/div[3]/div/div/div/div[3]/div/div[1]/div[1]/div[2]"));
+        return driver.findElement(Object.BeforeUserLoginBtnPath);
     }
 
     public WebElement UserLoginBtn() {
-        return driver.findElement(By.xpath("//*[@id=\"main-header\"]/div[3]/div/div/div/div[3]/div/div[1]/div[2]/div/div/div/a"));
+        return driver.findElement(Object.UserLoginBtnPath);
     }
 }
