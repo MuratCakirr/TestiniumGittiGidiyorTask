@@ -15,4 +15,6 @@ public class Object {
     public static final By txtPasswordPath = By.id("L-PasswordField");
     public static final By ggLoginPath = By.id("gg-login-enter");
     public static final By addToBasketPath = By.id("add-to-basket");
+    public static final By BeforeUserLoginBtnPath = By.xpath("//*[@id=\"main-header\"]/div[3]/div/div/div/div[3]/div/div[1]/div[1]/div[2]");
+    public static final By UserLoginBtnPath = By.xpath("//*[@id=\"main-header\"]/div[3]/div/div/div/div[3]/div/div[1]/div[2]/div/div/div/a");
 }
